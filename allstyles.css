@@ -1,0 +1,131 @@
+/*g, circle {*/
+/*    pointer-events: none;*/
+/*}*/
+
+/*.form-control-borderless {*/
+/*    border: none;*/
+/*}*/
+
+/*.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    box-shadow: none;*/
+/*}*/
+
+.proddesc {
+    font-size: small;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.padded {
+    padding: 2px;
+}
+
+.dashed-line {
+    stroke-dasharray: 5, 5;
+}
+
+.legend-box {
+    fill: #fff;
+    fill-opacity: 0.5;
+    stroke: gray;
+    stroke-opacity: 0.5;
+}
+
+.legend-label {
+    font-size: medium;
+    /*font-weight: 600;*/
+}
+
+.legend-item text {
+    font-size: small;
+
+}
+
+/**/
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    margin-bottom: 25px;
+    border-radius: 0.3rem;
+    /* text-align: center; */
+    /* margin-top: 30px; */
+    background: white;
+    /*padding: 30px;*/
+    /*margin: 30px;*/
+}
+
+/*.overlay a {*/
+/*    padding: 8px;*/
+/*    text-decoration: none;*/
+/*    font-size: 36px;*/
+/*    color: #818181;*/
+/*    display: block;*/
+/*    transition: 0.3s;*/
+/*}*/
+
+/*.overlay a:hover, .overlay a:focus {*/
+/*    color: #f1f1f1;*/
+/*}*/
+
+/*.overlay .closebtn {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    right: 45px;*/
+/*    font-size: 60px;*/
+/*}*/
+
+/*@media screen and (max-height: 450px) {*/
+/*    .overlay a {font-size: 20px}*/
+/*    .overlay .closebtn {*/
+/*        font-size: 40px;*/
+/*        top: 15px;*/
+/*        right: 35px;*/
+/*    }*/
+/*}*/
+
+/*.overlay h2, .overlay p {*/
+/*    color:white;*/
+/*}*/
+
+/**/
+
+.header {
+    padding: 50px;
+    text-align: center;
+    transition: 1s;
+}
+
+.hero h1 {
+    color: #5f89ad;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 36px;
+}
+
+.hero p {
+    color: #0076ad;
+    font-size: 22px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
